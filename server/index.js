@@ -7,7 +7,8 @@ const app= express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://khushboo:ADDICTION657@atlascluster.stlcgut.mongodb.net/employee");
+mongoose.connect("mongodb+srv://**************************************************");
+//mongodb connection link is provided in ***
 
 
 app.post('/register', (req, res) => {
